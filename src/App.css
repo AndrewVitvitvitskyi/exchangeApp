@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.header {
+	height: 50px;
+	line-height: 50px;
+	background-color: #326ba8;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 100px;
+}
+
+.today-rates-wrapper {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #326ba8;
+	border-left: none;
+}
+
+.today-rates-wrapper .today-rates-header {
+	height: 47px;
+	line-height: 47px;
+	background-color: #326ba8;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.today-rates-row {
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.rate-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	border-bottom: 1px solid lightgray;
+}
+
+.converter-wrapper {
+	width: 100%;
+	border: 1px solid #326ba8;
+	border-right: none;
+}
+
+.currency-select-wrapper, .currency-input-wrapper {
+	width: 100%;
+}
+
+.currency-converter-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+.currency-select-wrapper div {
+	width: 100%;
+	margin-left: 10px;
+}
+
+
+.currency-input-wrapper div {
+	margin: none;
+}
+
+.inputs-block-label {
+	position:absolute;
+	top:-10px;
+	left: 0;
+
+}
+
+.inputs-row {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.rate-info {
+	margin: 20px;
+	text-align: left;
+}
+
+.tabs-header {
+	background-color: #326ba8;	
+}
+
+.wrapper {
+	position: relative;
+
+}
+
+.wrapper>div {
+	height: 100%;
+}
+
+.period-tab button {
+	font-size: 12px;
+	min-width: unset;
+}
